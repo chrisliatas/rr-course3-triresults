@@ -8,6 +8,8 @@ class Event
 
   embedded_in :parent, polymorphic: true, touch: true
 
+  validates_presence_of :order, :name
+
   def meters
     case self.u
       when "meters" then
