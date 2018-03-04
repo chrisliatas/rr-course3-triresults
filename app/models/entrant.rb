@@ -8,4 +8,18 @@ class Entrant
   field :o, as: :overall, type: Placing
   field :gender,  type: Placing
   field :group, type: Placing
+
+  embeds_many :results, class_name: 'LegResult', after_add: :update_total
+  embeds_one :race, class_name: 'RaceRef'
+  embeds_one :racer, class_name: 'RacerInfo', as: :parent
+
+  def update_total(result)
+    self.secs = results.reduce(0) do |total, result|
+      total + result.secs.to_i
+    end
+  end
+  
+  def the_race
+    race.race
+  end
 end
