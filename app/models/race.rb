@@ -27,10 +27,10 @@ class Race
     ["order","distance","units"].each do |prop|
       if DEFAULT_EVENTS["#{name}"][prop.to_sym]
         define_method("#{name}_#{prop}") do
-          event=self.send("#{name}").send("#{prop}")
+          event=send("#{name}").send("#{prop}")
         end
         define_method("#{name}_#{prop}=") do |value|
-          event=self.send("#{name}").send("#{prop}=", value)
+          event=send("#{name}").send("#{prop}=", value)
         end
       end
     end
@@ -44,7 +44,7 @@ class Race
 
   ["city", "state"].each do |action|
     define_method("#{action}") do
-      self.location ? self.location.send("#{action}") : nil
+      location ? location.send("#{action}") : nil
     end
     define_method("#{action}=") do |name|
       object=self.location ||= Address.new
@@ -54,7 +54,7 @@ class Race
   end
 
   def next_bib
-    self[:next_bib] = self.inc(next_bib: 1)[:next_bib]
+    self[:next_bib] = inc(next_bib: 1)[:next_bib]
   end
 
   def get_group racer
@@ -66,5 +66,21 @@ class Race
       name=min_age >= 60 ? "masters #{gender}" : "#{min_age} to #{max_age} (#{gender})"
       Placing.demongoize(:name=>name)
     end
+  end
+
+  def create_entrant(racer)
+    entrant = Entrant.new
+    entrant.race = attributes.symbolize_keys.slice(:_id, :n, :date)
+    entrant.racer = racer.info.attributes
+    entrant.group = get_group(racer)
+    events.each do |event|
+      entrant.send("#{event.name}=", event)
+    end
+
+    if entrant.validate
+      entrant.bib = next_bib
+      entrant.save
+    end
+    entrant
   end
 end
