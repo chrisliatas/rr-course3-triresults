@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Address	app/models/address.rb	/^class Address$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Triresults
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BikeResult	app/models/bike_result.rb	/^class BikeResult < LegResult$/;"	c
+Entrant	app/models/entrant.rb	/^class Entrant$/;"	c
+EntrantTest	test/models/entrant_test.rb	/^class EntrantTest < ActiveSupport::TestCase$/;"	c
+Event	app/models/event.rb	/^class Event$/;"	c
+EventTest	test/models/event_test.rb	/^class EventTest < ActiveSupport::TestCase$/;"	c
+LegResult	app/models/leg_result.rb	/^class LegResult$/;"	c
+LegResultTest	test/models/leg_result_test.rb	/^class LegResultTest < ActiveSupport::TestCase$/;"	c
+Placing	app/models/placing.rb	/^class Placing$/;"	c
+Point	app/models/point.rb	/^class Point$/;"	c
+Race	app/models/race.rb	/^class Race$/;"	c
+RaceRef	app/models/race_ref.rb	/^class RaceRef$/;"	c
+RaceRefTest	test/models/race_ref_test.rb	/^class RaceRefTest < ActiveSupport::TestCase$/;"	c
+RaceTest	test/models/race_test.rb	/^class RaceTest < ActiveSupport::TestCase$/;"	c
+Racer	app/models/racer.rb	/^class Racer$/;"	c
+RacerInfo	app/models/racer_info.rb	/^class RacerInfo$/;"	c
+RacerInfoTest	test/models/racer_info_test.rb	/^class RacerInfoTest < ActiveSupport::TestCase$/;"	c
+RacerTest	test/models/racer_test.rb	/^class RacerTest < ActiveSupport::TestCase$/;"	c
+RacersController	app/controllers/racers_controller.rb	/^class RacersController < ApplicationController$/;"	c
+RacersControllerTest	test/controllers/racers_controller_test.rb	/^class RacersControllerTest < ActionController::TestCase$/;"	c
+RacersHelper	app/helpers/racers_helper.rb	/^module RacersHelper$/;"	m
+RacesController	app/controllers/races_controller.rb	/^class RacesController < ApplicationController$/;"	c
+RacesControllerTest	test/controllers/races_controller_test.rb	/^class RacesControllerTest < ActionController::TestCase$/;"	c
+RacesHelper	app/helpers/races_helper.rb	/^module RacesHelper$/;"	m
+RunResult	app/models/run_result.rb	/^class RunResult < LegResult$/;"	c
+SwimResult	app/models/swim_result.rb	/^class SwimResult < LegResult$/;"	c
+Test_utils	spec/test_utils.rb	/^module Test_utils$/;"	m
+Triresults	config/application.rb	/^module Triresults$/;"	m
+all_collections	spec/test_utils.rb	/^    def all_collections$/;"	f	class:Test_utils
+calc_ave	app/models/bike_result.rb	/^  def calc_ave$/;"	f	class:BikeResult
+calc_ave	app/models/leg_result.rb	/^  def calc_ave; end$/;"	f	class:LegResult
+calc_ave	app/models/run_result.rb	/^  def calc_ave$/;"	f	class:RunResult
+calc_ave	app/models/swim_result.rb	/^  def calc_ave$/;"	f	class:SwimResult
+class_exists?	spec/test_utils.rb	/^    def class_exists?(class_name)$/;"	f	class:Test_utils
+clear_all_collections	spec/test_utils.rb	/^    def clear_all_collections$/;"	f	class:Test_utils
+create	app/controllers/racers_controller.rb	/^  def create$/;"	f	class:RacersController
+create	app/controllers/races_controller.rb	/^  def create$/;"	f	class:RacesController
+create_entrant	app/models/race.rb	/^  def create_entrant(racer)$/;"	f
+create_entry	app/controllers/racers_controller.rb	/^  def create_entry$/;"	f	class:RacersController
+default	app/models/race.rb	/^  def self.default$/;"	F
+demongoize	app/models/address.rb	/^  def self.demongoize(object)$/;"	F	class:Address
+demongoize	app/models/placing.rb	/^  def self.demongoize(object)$/;"	F	class:Placing
+demongoize	app/models/point.rb	/^  def self.demongoize(object)$/;"	F	class:Point
+destroy	app/controllers/racers_controller.rb	/^  def destroy$/;"	f	class:RacersController
+destroy	app/controllers/races_controller.rb	/^  def destroy$/;"	f	class:RacesController
+edit	app/controllers/racers_controller.rb	/^  def edit$/;"	f	class:RacersController
+edit	app/controllers/races_controller.rb	/^  def edit$/;"	f	class:RacesController
+evolve	app/models/address.rb	/^  def self.evolve(object)$/;"	F	class:Address
+evolve	app/models/placing.rb	/^  def self.evolve(object)$/;"	F	class:Placing
+evolve	app/models/point.rb	/^  def self.evolve(object)$/;"	F	class:Point
+format_hours	app/helpers/application_helper.rb	/^  def format_hours secs$/;"	f	class:ApplicationHelper
+format_hours	spec/test_utils.rb	/^    def format_hours secs$/;"	f
+format_minutes	app/helpers/application_helper.rb	/^  def format_minutes secs$/;"	f	class:ApplicationHelper
+format_minutes	spec/test_utils.rb	/^    def format_minutes secs$/;"	f
+format_mph	app/helpers/application_helper.rb	/^  def format_mph mph$/;"	f	class:ApplicationHelper
+format_mph	spec/test_utils.rb	/^    def format_mph mph$/;"	f
+gender_place	app/models/entrant.rb	/^  def gender_place$/;"	f	class:Entrant
+get_group	app/models/race.rb	/^  def get_group racer$/;"	f
+group_name	app/models/entrant.rb	/^  def group_name$/;"	f	class:Entrant
+group_place	app/models/entrant.rb	/^  def group_place$/;"	f	class:Entrant
+index	app/controllers/racers_controller.rb	/^  def index$/;"	f	class:RacersController
+index	app/controllers/races_controller.rb	/^  def index$/;"	f	class:RacesController
+init_complete_race	spec/test_utils.rb	/^    def init_complete_race$/;"	f	class:Test_utils
+init_mongo_db	spec/test_utils.rb	/^    def init_mongo_db$/;"	f
+init_race	spec/test_utils.rb	/^    def init_race$/;"	f	class:Test_utils
+init_racer	spec/test_utils.rb	/^    def init_racer$/;"	f	class:Test_utils
+init_racers_from_file	spec/test_utils.rb	/^    def init_racers_from_file$/;"	f
+init_races_from_file	spec/test_utils.rb	/^    def init_races_from_file$/;"	f
+init_results_from_file	spec/test_utils.rb	/^    def init_results_from_file$/;"	f	class:Test_utils
+initialize	app/models/address.rb	/^  def initialize(city = nil, state = nil, location = nil)$/;"	f	class:Address
+initialize	app/models/placing.rb	/^  def initialize(name = nil, place = nil)$/;"	f	class:Placing
+initialize	app/models/point.rb	/^  def initialize(longitude = nil, latitude = nil)$/;"	f	class:Point
+meters	app/models/event.rb	/^  def meters$/;"	f	class:Event
+miles	app/models/event.rb	/^  def miles$/;"	f	class:Event
+mongoize	app/models/address.rb	/^  def mongoize$/;"	f	class:Address
+mongoize	app/models/address.rb	/^  def self.mongoize(object)$/;"	F	class:Address
+mongoize	app/models/placing.rb	/^  def mongoize$/;"	f	class:Placing
+mongoize	app/models/placing.rb	/^  def self.mongoize(object)$/;"	F	class:Placing
+mongoize	app/models/point.rb	/^  def mongoize$/;"	f	class:Point
+mongoize	app/models/point.rb	/^  def self.mongoize(object)$/;"	F	class:Point
+new	app/controllers/racers_controller.rb	/^  def new$/;"	f	class:RacersController
+new	app/controllers/races_controller.rb	/^  def new$/;"	f	class:RacesController
+next_bib	app/models/race.rb	/^  def next_bib$/;"	f
+overall_place	app/models/entrant.rb	/^  def overall_place$/;"	f	class:Entrant
+race_params	app/controllers/races_controller.rb	/^    def race_params$/;"	f	class:RacesController
+racer_params	app/controllers/racers_controller.rb	/^    def racer_params$/;"	f	class:RacersController
+secs=	app/models/leg_result.rb	/^  def secs= value$/;"	f	class:LegResult
+set_race	app/controllers/races_controller.rb	/^    def set_race$/;"	f	class:RacesController
+set_racer	app/controllers/racers_controller.rb	/^    def set_racer$/;"	f	class:RacersController
+setup_data_for_testing	spec/test_utils.rb	/^    def setup_data_for_testing$/;"	f
+show	app/controllers/racers_controller.rb	/^  def show$/;"	f	class:RacersController
+show	app/controllers/races_controller.rb	/^  def show$/;"	f	class:RacesController
+the_race	app/models/entrant.rb	/^  def the_race$/;"	f	class:Entrant
+upcoming_available_to	app/models/race.rb	/^  def self.upcoming_available_to racer$/;"	F
+update	app/controllers/racers_controller.rb	/^  def update$/;"	f	class:RacersController
+update	app/controllers/races_controller.rb	/^  def update$/;"	f	class:RacesController
+update_total	app/models/entrant.rb	/^  def update_total(result)$/;"	f	class:Entrant
