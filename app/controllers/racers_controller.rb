@@ -20,6 +20,7 @@ class RacersController < ApplicationController
 
   # GET /racers/1/edit
   def edit
+    @races = Race.upcoming_available_to(@racer).order_by(:date.asc)
   end
 
   # POST /racers
