@@ -10,6 +10,7 @@ class RacersController < ApplicationController
   # GET /racers/1
   # GET /racers/1.json
   def show
+    @races = @racer.races
   end
 
   # GET /racers/new
