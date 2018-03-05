@@ -56,4 +56,15 @@ class Race
   def next_bib
     self[:next_bib] = self.inc(next_bib: 1)[:next_bib]
   end
+
+  def get_group racer
+    if racer && racer.birth_year && racer.gender
+      quotient=(date.year-racer.birth_year)/10
+      min_age=quotient*10
+      max_age=((quotient+1)*10)-1
+      gender=racer.gender
+      name=min_age >= 60 ? "masters #{gender}" : "#{min_age} to #{max_age} (#{gender})"
+      Placing.demongoize(:name=>name)
+    end
+  end
 end
