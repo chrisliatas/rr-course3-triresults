@@ -76,7 +76,6 @@ class Race
     events.each do |event|
       entrant.send("#{event.name}=", event)
     end
-
     if entrant.validate
       entrant.bib = next_bib
       entrant.save
