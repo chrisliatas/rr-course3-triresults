@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aadac8c2-b364-4782-af06-166acb9081f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/entries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/entries_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/racers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/racers_controller.rb" />
       <change beforePath="$PROJECT_DIR$/app/controllers/api/races_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/races_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/results_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/results_controller.rb" />
       <change beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -39,31 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entries_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entries_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/entries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="races_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="races_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="492">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -122,10 +109,10 @@
         <option value="$PROJECT_DIR$/app/views/racers/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/racers_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/races_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/results_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/entries_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/races_controller.rb" />
       </list>
     </option>
   </component>
@@ -410,7 +397,7 @@
       <updated>1520163970797</updated>
       <workItem from="1520163976084" duration="67000" />
       <workItem from="1520164056483" duration="37360000" />
-      <workItem from="1520359070065" duration="4240000" />
+      <workItem from="1520359070065" duration="4989000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1520170382294</created>
@@ -657,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520360238977</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="uri_spec 03 OK">
+      <created>1520368643847</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1520368643847</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,7 +660,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41667000" />
+    <option name="totallyTimeSpent" value="42416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="-4" width="1879" height="1084" extended-state="6" />
@@ -727,7 +721,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="races_spec 04 OK" />
     <MESSAGE value="races_spec 05 OK" />
     <MESSAGE value="results_spec 01 OK" />
     <MESSAGE value="results_spec 02 OK" />
@@ -752,7 +745,8 @@
     <MESSAGE value="web_registration_spec 02 OK" />
     <MESSAGE value="web_registration_spec 03 OK" />
     <MESSAGE value="uri_spec 02 OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="uri_spec 02 OK" />
+    <MESSAGE value="uri_spec 03 OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="uri_spec 03 OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1005,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/test.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33712">
@@ -1025,14 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1056,7 +1034,23 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/api/entries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
         </state>
       </provider>
