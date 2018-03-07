@@ -48,8 +48,8 @@
       <file leaf-file-name="races_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="90" lean-forward="false" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+            <state relative-caret-position="247">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -408,7 +408,7 @@
       <workItem from="1520163976084" duration="67000" />
       <workItem from="1520164056483" duration="37360000" />
       <workItem from="1520359070065" duration="5434000" />
-      <workItem from="1520425359058" duration="925000" />
+      <workItem from="1520425359058" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1520170382294</created>
@@ -676,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520369762828</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="params_spec 01 OK">
+      <created>1520430196007</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1520430196007</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -685,7 +692,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43786000" />
+    <option name="totallyTimeSpent" value="43975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="-4" width="1879" height="1084" extended-state="6" />
@@ -746,7 +753,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="results_spec 02 OK" />
     <MESSAGE value="results_spec 03 OK" />
     <MESSAGE value="results_spec 04 NOT OK" />
     <MESSAGE value="results_spec 05 OK" />
@@ -771,7 +777,8 @@
     <MESSAGE value="uri_spec 03 OK" />
     <MESSAGE value="uri_spec 04 OK" />
     <MESSAGE value="uri_spec 05 OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="uri_spec 05 OK" />
+    <MESSAGE value="params_spec 01 OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="params_spec 01 OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1116,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="90" lean-forward="false" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+        <state relative-caret-position="247">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>

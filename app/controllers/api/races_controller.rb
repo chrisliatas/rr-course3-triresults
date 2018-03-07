@@ -19,8 +19,8 @@ module Api
 
     def create
       if !request.accept || request.accept == "*/*"
-        render plain: :nothing, status: :ok
-        # render plain: params[:race][:name]
+        # render plain: :nothing, status: :ok
+        render plain: params[:race][:name]
       # else
       #   @race = Race.new(race_params)
       #
