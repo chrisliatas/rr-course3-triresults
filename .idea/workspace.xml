@@ -19,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/triresults@Rails_console__triresults.coverage" NAME="Rails console: triresults Coverage Results" MODIFIED="1520367145828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="triresults" />
+    <SUITE FILE_PATH="coverage/triresults@Rails_console__triresults.coverage" NAME="Rails console: triresults Coverage Results" MODIFIED="1520430841659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="triresults" />
     <SUITE FILE_PATH="coverage/triresults@Development__triresults.coverage" NAME="Development: triresults Coverage Results" MODIFIED="1520430135276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="triresults" />
     <SUITE FILE_PATH="coverage/triresults@test__triresults.coverage" NAME="test: triresults Coverage Results" MODIFIED="1520367849081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="triresults" />
   </component>
@@ -48,8 +48,8 @@
       <file leaf-file-name="races_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -266,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: triresults">
+  <component name="RunManager" selected="IRB console.Rails console: triresults">
     <configuration name="Rails console: triresults" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="triresults" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -388,9 +388,10 @@
       <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: triresults" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: triresults" />
         <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: triresults" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: triresults" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +409,7 @@
       <workItem from="1520163976084" duration="67000" />
       <workItem from="1520164056483" duration="37360000" />
       <workItem from="1520359070065" duration="5434000" />
-      <workItem from="1520425359058" duration="1114000" />
+      <workItem from="1520425359058" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1520170382294</created>
@@ -683,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520430196007</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="params_spec 02 OK">
+      <created>1520430358653</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1520430358653</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +700,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43975000" />
+    <option name="totallyTimeSpent" value="45170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="-4" width="1879" height="1084" extended-state="6" />
@@ -753,7 +761,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="results_spec 03 OK" />
     <MESSAGE value="results_spec 04 NOT OK" />
     <MESSAGE value="results_spec 05 OK" />
     <MESSAGE value="results_spec 06,07 OK" />
@@ -778,7 +785,8 @@
     <MESSAGE value="uri_spec 04 OK" />
     <MESSAGE value="uri_spec 05 OK" />
     <MESSAGE value="params_spec 01 OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="params_spec 01 OK" />
+    <MESSAGE value="params_spec 02 OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="params_spec 02 OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1034,6 +1042,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/races_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="340">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding />
         </state>
       </provider>
